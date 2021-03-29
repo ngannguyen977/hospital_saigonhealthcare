@@ -104,7 +104,7 @@
     .info.error {
         color:  $theme-color;
     }
-    .footer-social-bottom{display:none;}
+    .footer-social-bottom{display:none;padding-bottom: 15px;}
 }
 
 //copy Right 
@@ -119,8 +119,8 @@
         p{
             color: #fff;
             font-weight: 300;
-            font-size: 13px;
-            line-height: 2;
+            font-size: 12px;
+            line-height: 1.5;
             margin-bottom: 12px;
             margin-left: -15px;
             i{
