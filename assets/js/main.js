@@ -1,7 +1,11 @@
 (function ($)
   { "use strict"
   
-
+    //pagination////////////////
+  $('.pagination-inner a').on('click', function() {
+    $(this).siblings().removeClass('pagination-active');
+    $(this).addClass('pagination-active');
+  })
 /* 1. Proloder */
     $(window).on('load', function () {
       $('#preloader-active').delay(450).fadeOut('slow');
@@ -336,3 +340,5 @@ var testimonial = $('.h1-testimonial-active');
     });
 
 })(jQuery);
+
+
