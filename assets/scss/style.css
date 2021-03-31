@@ -322,7 +322,7 @@ a:focus,
 }
 
 a {
-  color: #635c5c;
+  color: #343a40;
   cursor: pointer;
 }
 
@@ -443,6 +443,8 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .pagination a {
@@ -500,8 +502,8 @@ hr {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .separator {
@@ -5158,6 +5160,7 @@ hr {
 
 .contact-content .contact-body ul li img {
   margin-right: 8px;
+  width: 16px;
 }
 
 .contact-content iframe {
@@ -5256,14 +5259,27 @@ hr {
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 6px;
-  margin-left: right;
 }
 
 .service-content .service-list .service-item .service-img {
   width: 200px;
   height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 6px;
   margin-right: 20px;
+}
+
+.service-content .service-list .service-item a {
+  float: right;
+}
+
+.service-content .service-list .service-item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .service-content .left-sidebar {
@@ -5275,6 +5291,26 @@ hr {
 .service-content .left-sidebar ul li {
   padding: 12px 0;
   border-bottom: 1px solid #ddd;
+}
+
+.service-content .left-sidebar ul li:last-child {
+  border-bottom: 0;
+}
+
+.service-content .left-sidebar ul img {
+  margin-right: 10px;
+}
+
+.detail-page .posts-list .single-post .blog-info-link img {
+  margin-right: 10px;
+}
+
+.detail-page .post_large {
+  margin-bottom: 20px;
+}
+
+.detail-page .post_large img {
+  margin-bottom: 10px;
 }
 
 .testimonial-area .testimonial-caption {
@@ -5630,12 +5666,21 @@ hr {
 }
 
 @media (max-width: 767px) {
+  .header-area .icon_menu {
+    margin-left: 0;
+  }
+  .service-list {
+    margin-top: 20px;
+  }
   .hero__caption {
     text-align: center;
   }
   .hero__caption p {
     padding-left: 0;
     padding-right: 0;
+  }
+  .slicknav_menu .slicknav_icon {
+    margin-right: -5px;
   }
   .header-area .logo img {
     width: 100px;
@@ -5745,6 +5790,15 @@ hr {
     margin-bottom: 20px;
     margin-right: 0;
   }
+  .service-content .service-list .service-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .service-content .service-list .service-item .service-img {
+    width: 100% !important;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -5754,6 +5808,9 @@ hr {
 }
 
 @media (max-width: 991px) {
+  .service-content .container {
+    max-width: 100%;
+  }
   .doctor-item {
     width: 100% !important;
     border-bottom: 1px solid #fff;

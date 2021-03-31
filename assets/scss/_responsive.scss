@@ -5,6 +5,7 @@ $mq-md: "(min-width: 992px) and (max-width: 1199px)";
 $mq-lg: "(min-width: 1200px)";
 
 @media #{$xs}{
+    
     .icon_menu{
         .lg-block{margin-left: 15px;}
     }
@@ -48,13 +49,17 @@ $mq-lg: "(min-width: 1200px)";
 
 @media #{$mq-xs}
 {
-   
+    .header-area .icon_menu{margin-left: 0;}
+    .service-list{margin-top:20px;}
     .hero__caption{
         text-align: center;
         p{
             padding-left:0;
             padding-right:0;
         }
+    }
+    .slicknav_menu{
+        .slicknav_icon{margin-right: -5px;}
     }
     .header-area .logo img {
         width: 100px;
@@ -151,6 +156,14 @@ $mq-lg: "(min-width: 1200px)";
             margin-right: 0;
         }
     }
+    .service-content{
+        .service-list{
+            .service-item{
+                flex-wrap: wrap;
+                .service-img{width: 100% !important;margin-right:0;margin-bottom: 20px;}
+            }
+        }
+    }
 }
 
 @media #{$mq-sm}
@@ -161,12 +174,15 @@ $mq-lg: "(min-width: 1200px)";
     .app-ico{
         img{ margin-bottom: 5px;}
     }
+    
 }
 @media #{$mq-lg}  {
 
 }
 @media (max-width: 991px){
-   
+    .service-content{
+        .container{max-width: 100%;}
+    }
     .doctor-item{
         width:100% !important;
         border-bottom: 1px solid #fff;;

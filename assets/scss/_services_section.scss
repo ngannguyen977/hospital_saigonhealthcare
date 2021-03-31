@@ -511,7 +511,7 @@ background: #707070;
             li{
                 padding:10px 0;
                 font-weight: 600;
-                img{margin-right: 8px;}
+                img{margin-right: 8px;width:16px;}
             }
         }
     }
@@ -586,6 +586,7 @@ background: #707070;
 ////////////SERVICES///////////
 .service-content{
     .service-list{
+        // margin-top: 20px;
         .service-item{
             display:flex;
             background: #EFF3F6;
@@ -594,21 +595,49 @@ background: #707070;
             border-radius: 6px;
             .service-img{
                 width: 200px;
-            height: 130px;
-            border-radius: 6px;
-            margin-right: 20px;
+                height: 130px;
+                object-fit: cover;
+                border-radius: 6px;
+                margin-right: 20px;
             }
-            margin-left:right;
+            a{float:right;}
+            p{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+            }
         }
     }
     .left-sidebar{
         background: #EBEBEB;
         padding: 18px;
         border-radius: 6px;
-        ul li{
-            padding: 12px 0;
-            border-bottom: 1px solid #ddd;
+        ul {
+            li{
+                padding: 12px 0;
+                border-bottom: 1px solid #ddd;
+                &:last-child{border-bottom:0;}
+            }
+            img{margin-right: 10px;}
+
         }
+    }
+    
+}
+////////////////detail page//////////////
+.detail-page{
+    .posts-list{
+        .single-post{
+            .blog-info-link{
+                img{margin-right:10px;}
+            }
+        }
+    }
+    .post_large{
+        margin-bottom: 20px;
+        img{margin-bottom: 10px;}
     }
     
 }

@@ -99,7 +99,7 @@ a:focus,
 	outline: none;
 }
 a{
-	color: rgb(99, 92, 92);
+	color: #343a40;
 	cursor: pointer;
 }
 a:hover{
@@ -206,6 +206,7 @@ hr {
   .pagination {
 	position: relative;
 	justify-content:center;
+	flex-wrap: wrap;
   }
   .pagination a {
 	position: relative;
@@ -253,8 +254,8 @@ hr {
 		
 // Section Padding
 	.section-padding{
-		padding-top: 120px;
-		padding-bottom: 120px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 	}
 	.separator {
 		border-top: 1px solid #f2f2f2
