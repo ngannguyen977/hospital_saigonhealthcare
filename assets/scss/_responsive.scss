@@ -49,6 +49,12 @@ $mq-lg: "(min-width: 1200px)";
 
 @media #{$mq-xs}
 {
+    .about-sec-02{
+        .flex-flow{
+            flex-flow: column-reverse;
+        }
+        .col-grey{height: 200px;padding-top: 60px;}
+    }
     .header-area .icon_menu{margin-left: 0;}
     .service-list{margin-top:20px;}
     .hero__caption{
@@ -228,12 +234,7 @@ $mq-lg: "(min-width: 1200px)";
 @media (max-width: 630px){
     .header-middle{display:none}
     .btn-mobile{display: grid;}
-    .about-sec-02{
-        .flex-flow{
-            flex-flow: column-reverse;
-        }
-        .col-grey{height: 200px;padding-top: 60px;}
-    }
+   
     .about-content{
         .slider-bottom{
             ul{

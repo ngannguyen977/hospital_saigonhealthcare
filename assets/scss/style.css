@@ -186,7 +186,7 @@ h6 {
 }
 
 h5 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #343a40;
 }
 
@@ -3233,7 +3233,7 @@ hr {
 }
 
 .mobile_menu .slicknav_menu .slicknav_btn {
-  top: -32px;
+  top: -36px;
   right: 8%;
 }
 
@@ -3380,7 +3380,7 @@ hr {
   background: #fff;
   margin: 0 10px 20px 10px;
   padding: 8px 15px;
-  width: 15%;
+  width: 18%;
   text-align: center;
   font-weight: bold;
   color: #204b6b;
@@ -3669,6 +3669,8 @@ hr {
   margin-left: -15px;
   max-width: 100%;
   min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about-low-area .register-info .icon {
@@ -3724,7 +3726,7 @@ hr {
 
 .about-low-area .justify-content-between {
   background: #01508F;
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
 .about-low-area .about-caption p {
@@ -5011,7 +5013,7 @@ hr {
 }
 
 .video-container .video-item .thumbnail .icon-video-sm {
-  width: 30px;
+  width: 40px;
   position: absolute;
   right: 0;
   left: 0;
@@ -5049,6 +5051,15 @@ hr {
 
 .sub-banner .banner-bottom {
   background: #D9E2E8;
+}
+
+.about-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-content .about-sec-01 h5 {
@@ -5099,6 +5110,10 @@ hr {
   font-weight: 800;
 }
 
+.about-content .about-sec-03 .video-container .video-item {
+  margin-bottom: 20px;
+}
+
 .about-content .about-sec-03 .video-container .video-item .thumbnail {
   width: 100%;
   float: none;
@@ -5127,7 +5142,7 @@ hr {
   border-radius: 30px;
   padding: 8px 20px;
   margin: 0 10px;
-  width: 18%;
+  width: 22%;
 }
 
 .about-content .slider-bottom ul li img {
@@ -5666,6 +5681,16 @@ hr {
 }
 
 @media (max-width: 767px) {
+  .about-sec-02 .flex-flow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  .about-sec-02 .col-grey {
+    height: 200px;
+    padding-top: 60px;
+  }
   .header-area .icon_menu {
     margin-left: 0;
   }
@@ -5868,16 +5893,6 @@ hr {
   .btn-mobile {
     display: -ms-grid;
     display: grid;
-  }
-  .about-sec-02 .flex-flow {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: column-reverse;
-            flex-flow: column-reverse;
-  }
-  .about-sec-02 .col-grey {
-    height: 200px;
-    padding-top: 60px;
   }
   .about-content .slider-bottom ul {
     -ms-flex-wrap: wrap;

@@ -394,7 +394,7 @@ background: #707070;
             float:left;width:40%;position: relative;
             margin-right: 20px;
             .icon-video-sm{
-                width: 30px;
+                width: 40px;
                 position: absolute;
                 right: 0;
                 left: 0;
@@ -433,6 +433,12 @@ background: #707070;
    
 }
 .about-content{
+    ul{
+        li{
+            display: flex;
+            justify-content:center;
+        }
+    }
     .about-sec-01{
         h5{color:#A1CC3A;font-size: 20px;}
         h3{font-size:25px;}
@@ -468,6 +474,7 @@ background: #707070;
     .about-sec-03{
         .video-container{
             .video-item{
+                margin-bottom: 20px;
                 .thumbnail{
                     width: 100%;
                     float:none;
@@ -490,7 +497,7 @@ background: #707070;
                 border-radius: 30px;
                 padding: 8px 20px;
                 margin: 0 10px;
-                width: 18%;
+                width: 22%;
                 img{margin-right: 5px;}
             }
         }
