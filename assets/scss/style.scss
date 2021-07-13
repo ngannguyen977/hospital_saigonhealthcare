@@ -10,6 +10,7 @@
 ------------------------------------------------- 
 */
 
+
 /* CSS Index
 -------------------------------------------------
 
@@ -28,32 +29,29 @@
 */
 
 // Default
-	@import 'variables';
-	@import 'mixins';
-	@import 'overlay';
-	@import 'common';
-	@import 'color';
-
-	
+@import 'variables';
+@import 'mixins';
+@import 'overlay';
+@import 'common';
+@import 'color';
 // Homepage1
-	@import 'headerMenu';
-	@import 'h1-hero';
-	@import 'about';
-	@import 'gallery';
-	@import 'wantTowork';
-	@import 'contact_form';
-	@import 'extraPage';
-	@import 'services_section';
-	@import 'testimonial';
-	@import 'footer';
-	@import 'responsive';
-
+@import 'headerMenu';
+@import 'h1-hero';
+@import 'about';
+@import 'recruit';
+@import 'gallery';
+@import 'wantTowork';
+@import 'contact_form';
+@import 'extraPage';
+@import 'services_section';
+@import 'testimonial';
+@import 'footer';
+@import 'responsive';
+@import '404page';
 // inner Page
-
-
 // Default Element Page
-	@import 'blog_page';
-	@import 'contact';
-	@import 'bradcam';
-	@import 'extend';
-	@import 'elements';
+@import 'blog_page';
+@import 'contact';
+@import 'bradcam';
+@import 'extend';
+@import 'elements';

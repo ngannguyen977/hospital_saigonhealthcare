@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=opensans:500);
+.page-not-found {
+    background: #79b5f6;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+._404 {
+    font-size: 18vw;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    letter-spacing: 15px;
+}
+
+.c {
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    h3 {
+        font-size: 3vw;
+        color: #fff;
+        // margin-top: -30px;
+    }
+    ._2 {
+        text-align: center;
+        display: block;
+        position: relative;
+        font-size: 1.5vw;
+    }
+    .btn-back {
+        background-color: white;
+        position: relative;
+        display: inline-block;
+        padding: 10px 30px;
+        z-index: 5;
+        font-size: 16px;
+        margin: 0 auto;
+        color: #0f7bf1;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: bold;
+        margin-top: 15px;
+        &:hover {
+            color: #5a96d8 !important;
+        }
+    }
+}
+
+.text {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 19px 0px 0px 0px;
+    /* top: 256.301px; */
+    z-index: 3;
+    width: 100%;
+    line-height: 1.2em;
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    width: 60%;
+}
+
+@media #{$mq-xs} {
+    .c {
+        margin-top: 10%;
+        ._404 {
+            font-size: 90px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        ._2 {
+            font-size: 16px;
+        }
+    }
+}
