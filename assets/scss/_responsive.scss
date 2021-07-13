@@ -248,6 +248,15 @@ $mq-lg: "(min-width: 1200px)";
     }
 }
 @media (max-width: 630px){
+    .img-video-lg{
+        width: 100%;
+        height: auto;
+    }
+    .icon-video{width:60px;}
+    .post-item{
+        flex-wrap: wrap;
+        .post-img{width:100% !important;height:200px !important; margin-bottom: 15px;}
+    }
     .header-middle{display:none}
     .btn-mobile{display: grid;}
     .about-content{

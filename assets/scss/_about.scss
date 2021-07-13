@@ -1,8 +1,10 @@
 .about-page {
     #pills-tab {
         background: #078ae0;
-        padding: 0 3%;
+        padding: 0 5%;
+        @media (max-width: 630px){
 
+        }
         .nav-link {
             padding: 10px;
             background-color: transparent;
@@ -28,6 +30,7 @@
     }
 
     .tab-content {
+        padding: 30px 0;
         .tab-item {
             .title-tab {
                 margin: 30px 0;
@@ -50,13 +53,53 @@
             .tab-content-item{
                 .post-item{
                     display: flex;
+                    margin-bottom: 35px;
+                    
                     .post-img{
                         width: 230px;
                         height: 140px;
                         object-fit: cover;
                         margin-right: 20px;
                     }
+                    article{
+                        p{
+                            overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        }
+                        .see-more{
+                            float: right;
+                            img{width: 15px;
+                                margin-right: 15px;}
+                            .btn-more{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
                 }
+                .video{
+                    .thumbnail{
+                        position: relative;
+                        margin: 0 auto;
+                        text-align: center;
+                        .img-video-lg {
+                            width: 80%;
+                            height:400px;
+                            object-fit: cover;
+                        }
+                        .icon-video{
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto;
+                        }
+                    }
+                }
+                
             }
         }
     }
