@@ -1,5 +1,18 @@
 // Header left right padding
 .header-area {
+    #user-info{
+        padding:0;
+        li{
+            padding:8px 25px;
+            &:hover, &:focus{
+                background-color:#dee2e6;
+                
+           }
+           a{
+               &:hover{color:#333 !important;}
+           }
+        }
+    }
     .logo img{width:130px;}
     .icon_menu{width:50px;margin-left: 15px;;}
     .header-middle{
@@ -258,8 +271,6 @@
         }
     }
 }
-
-
 //! Mobile Menu
 .mobile_menu {
     position: absolute;

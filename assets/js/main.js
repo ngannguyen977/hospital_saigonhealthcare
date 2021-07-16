@@ -510,6 +510,14 @@ var testimonial = $('.h1-testimonial-active');
       hoverZoom: "off",
       hideDots: "on"
     });
+    //////datetimepicker///////
+    $('.input-daterange').datepicker({
+      format: 'dd-mm-yyyy',
+      todayHighlight: true,
+      startDate: '0d'
+      });
+
+
 })(jQuery);
 
 

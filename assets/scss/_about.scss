@@ -28,29 +28,24 @@
         }
 
     }
-
+    
     .tab-content {
         padding: 30px 0;
         .tab-item {
-            .title-tab {
-                margin: 30px 0;
-                h4 {
-                    color: #078ae0;
-                    border-bottom: 2px solid #078ae0;
-                }
-
-                .tb-icon {
-                    background: #078ae0;
-                    display: inline-block;
-                    margin-right: 10px;
-                    padding: 5px;
-
-                    img {
-                        width: 20px;
-                    }
-                }
-            }
+            
             .tab-content-item{
+                ul {
+                    padding-left: 20px;
+                    li{list-style:circle;}
+                }
+                .btn{
+                    border-radius: 3px;
+                    text-align: center;
+                    margin-top: 20px;
+                    padding: 8px 15px;
+                    font-size: 14px;
+                    &:hover{opacity: .8;}
+                }
                 .post-item{
                     display: flex;
                     margin-bottom: 35px;
@@ -71,15 +66,20 @@
                         }
                         .see-more{
                             float: right;
+                            .btn-share{cursor: pointer;}
                             img{width: 15px;
                                 margin-right: 15px;}
                             .btn-more{
                                 text-decoration: underline;
+                                &:hover{
+                                    color:#078ae0;
+                                }
                             }
                         }
                     }
                 }
                 .video{
+                    text-align: center;
                     .thumbnail{
                         position: relative;
                         margin: 0 auto;
@@ -101,6 +101,59 @@
                 }
                 
             }
+        }
+    }
+}
+
+.main-banner {
+    img{width: 100%;}
+}
+.title-tab {
+    margin: 30px 0;
+    h4 {
+        color: #078ae0;
+        border-bottom: 2px solid #078ae0;
+    }
+
+    .tb-icon {
+        background: #078ae0;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 5px;
+
+        img {
+            width: 20px;
+        }
+    }
+}
+.tab-content-item{
+    video{
+        text-align: center;
+    }
+}
+//////////////////// GUIDE-PAGE////////////////////
+.guide-page{
+    .guide-item{margin-bottom: 40px;
+        h5{color: #014898;}
+    }
+}
+.guide-detail-page{
+    .feature-img{
+        .blog-img{width:100%;margin-bottom: 20px;}
+        img{width: 100%;
+            height: 300px;
+            object-fit: cover;}
+    }
+    .post_large{
+        h4{margin-top:10px;
+            color:#2680eb;
+        }
+    }
+    .post_item{
+        .img-small{
+            width: 80px;
+            height: 55px;
+            object-fit: cover;
         }
     }
 }

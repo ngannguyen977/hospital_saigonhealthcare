@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,25 +10,29 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-	<!-- CSS here -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/slicknav.css">
+    <!-- CSS here -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
+    <!-- <link rel="stylesheet" href="assets/css/carousel.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/gijgo.css"> -->
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/animated-headline.css">
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="assets/css/themify-icons.css">
-	<link rel="stylesheet" href="assets/css/slick.css">
-	<link rel="stylesheet" href="assets/css/nice-select.css">
-	<link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 </head>
+
 <body>
-    <!-- ? Preloader Start -->
+    <!-- ?/////////////////////// Preloader Start///////////////////// -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
@@ -38,9 +43,9 @@
             </div>
         </div>
     </div>
-    <!-- Preloader Start -->
+    <!-- //////////////////////Preloader Start ////////////////////////////-->
     <header>
-        <!-- Header Start -->
+        <!--////////////////////Header Start/////////////////////////// -->
         <div class="header-area">
             <div class="main-header ">
                 <div class="header-top d-none d-lg-block">
@@ -48,7 +53,7 @@
                         <div class="col-xl-12">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
-                                    <ul>     
+                                    <ul>
                                         <li><i class="fas fa-phone"></i>Hotline : 19008988</li>
                                         <li><i class="far fa-envelope"></i>saigonhealthcare@gmail.com</li>
                                     </ul>
@@ -56,7 +61,53 @@
                                 <div class="header-info-right">
                                     <a href="#" class="btn">Thẻ thành viên</a>
                                     <a href="#" class="btn">Liên hệ</a>
+
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="dropdown">
+                                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown"><img
+                                                    src="assets/img/icon/user.png" />Đăng nhập<span
+                                                    class="caret"></span></a>
+                                            <ul id="login-dp" class="dropdown-menu">
+                                                <li>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <a class="btn btn-green">Đăng nhập</a>
+                                                            <a class="btn btn-green">Tạo tài khoản</a>
+                                                            <div class="social-buttons">
+                                                                <div>
+                                                                    <a href="#" class="btn btn-fb"><i
+                                                                            class="fa fa-facebook"></i> Đăng nhập
+                                                                        bằng<img
+                                                                            src="assets/img/icon/f_white.png" /></a>
+                                                                </div>
+                                                                <div>
+                                                                    <a href="#" class="btn btn-google"><i
+                                                                            class="fa fa-facebook"></i> Đăng nhập
+                                                                        bằng<img
+                                                                            src="assets/img/icon/google_white.png" /></a>
+                                                                </div>
+                                                                <div>
+                                                                    <a href="#" class="btn btn-zalo"><i
+                                                                            class="fa fa-facebook"></i> Đăng nhập
+                                                                        bằng<img
+                                                                            src="assets/img/icon/zalo_white.png" /></a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <div class="lang">
+                                        <img src="assets/img/icon/vn_flag.svg" alt="" />
+                                        <img src="assets/img/icon/en_flag.svg" alt="" />
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -65,10 +116,13 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 col-sm-6 col-xs-6 header-left">
-                                <a class="logo lg-display" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a class="logo lg-display" href="index.html"><img src="assets/img/logo/logo.png"
+                                        alt=""></a>
                                 <div class="social-top"><span>KẾT NỐI VỚI CHÚNG TÔI</span>
                                     <img class="icon" src="assets/img/icon/facebook.svg" />
-                                    <img class="icon" src="assets/img/icon/youtube.svg" /></div>
+                                    <img class="icon" src="assets/img/icon/youtube.svg" />
+                                    <img class="icon" src="assets/img/icon/zalo.png" />
+                                </div>
                             </div>
                             <div class="col-md-5 col-sm-6 col-xs-6 fl-right header-right">
                                 <a class="btn btn-green"><img src="assets/img/icon/useronline.svg" />Bệnh án online</a>
@@ -78,41 +132,100 @@
                     </div>
                 </div>
                 <div class="btn-mobile">
-                    <a class="green"><img src="assets/img/icon/useronline.svg" />Bệnh án online</a>
-                    <a class="blue"><img src="assets/img/icon/form.svg" />Đăng ký khám</a>
+                    <a href="" class="green"><img src="assets/img/icon/useronline.svg" />Bệnh án online</a>
+                    <a href="" class="blue"><img src="assets/img/icon/form.svg" />Đăng ký khám</a>
+                    <ul class="dark-blue nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="btn dropdown-toggle" data-toggle="dropdown"><img
+                                    src="assets/img/icon/user.png" />Đăng nhập<span class="caret"></span></a>
+                            <ul id="login-dp" class="dropdown-menu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a class="btn btn-green">Đăng nhập</a>
+                                            <a class="btn btn-green">Tạo tài khoản</a>
+                                            <div class="social-buttons">
+                                                <div>
+                                                    <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Đăng
+                                                        nhập bằng<img src="assets/img/icon/f_white.png" /></a>
+                                                </div>
+                                                <div>
+                                                    <a href="#" class="btn btn-google"><i class="fa fa-facebook"></i>
+                                                        Đăng nhập bằng<img src="assets/img/icon/google_white.png" /></a>
+                                                </div>
+                                                <div>
+                                                    <a href="#" class="btn btn-zalo"><i class="fa fa-facebook"></i> Đăng
+                                                        nhập bằng<img src="assets/img/icon/zalo_white.png" /></a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <div class="header-bottom header-sticky">
                     <div class="container">
                         <div class="row align-items-center">
                             <!-- Logo -->
-                                <div class="icon_menu ">
-                                    <a class="logo lg-block" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                    <a href="index.html"><img class="img-fluid lg-display" src="assets/img/icon/menu.svg" alt=""></a>
-                                </div>
+                            <div class="icon_menu ">
+                                <a class="logo lg-block" href="index.html"><img src="assets/img/logo/logo.png"
+                                        alt=""></a>
+
+                                <a href="index.html"><img class="img-fluid lg-display" src="assets/img/icon/menu.svg"
+                                        alt=""></a>
+                            </div>
+
                             <div class="">
                                 <div class="menu-wrapper  d-flex align-items-center">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
-                                        <nav> 
-                                            <ul id="navigation">                                                                                          
-                                                <li class="active"><a href="index.html">TRANG CHỦ</a></li>
-                                                <li><a href="about.html">SAIGONHEALTHCARE</a></li>
-                                                
-                                                <li><a href="blog.html">DỊCH VỤ KHÁM</a>
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a href="">SAIGON HEALTHCARE</a>
                                                     <ul class="submenu">
-                                                        <li><a href="blog.html">Bao hiem</a></li>
-                                                        <li><a href="blog_details.html">Ngoai tru</a></li>
-                                                        <li><a href="elements.html">Noi tru</a></li>
+                                                        <li><a href="about.html">Về chúng tôi</a></li>
+                                                        <li><a href="recruit.html">Thông tin tuyển dụng</a></li>
+                                                        <li><a href="contact.html">Liên hệ</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="project.html">TIN TỨC</a></li>
-                                                <li><a href="services.html">TUYỂN DỤNG</a></li>
-
+                                                <li><a href="">CHUYÊN KHOA</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="specialist.html">Nội tổng quát</a></li>
+                                                        <li><a href="specialist.html">Khoa nhi</a></li>
+                                                        <li><a href="specialist.html">Khoa mắt</a></li>
+                                                        <li><a href="specialist.html">Khoa ngoại tổng quát</a></li>
+                                                        <li><a href="specialist.html">Khoa răng hàm mặt</a></li>
+                                                        <li><a href="specialist.html">Chấn thương chỉnh hình</a></li>
+                                                        <li><a href="specialist.html">Khoa Tai-Mũi-Họng</a></li>
+                                                        <li><a href="specialist.html">Khoa sản phụ khoa</a></li>
+                                                        <li><a href="specialist.html">Khoa chuẩn đoán hình ảnh</a></li>
+                                                        <li><a href="specialist.html">Khoa xet nghiệm</a></li>
+                                                        <li><a href="specialist.html">Khoa Nội soi tiêu hóa</a></li>
+                                                        <li><a href="specialist.html">Khoa Y học cổ truyền</a></li>
+                                                        <li><a href="specialist.html">Khoa dược</a></li>
+                                                        <li><a href="specialist.html">Khoa tiêu chủng</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="doctor.html">CHUYÊN GIA - BÁC SĨ</a></li>
+                                                <li><a href="services.html">DỊCH VỤ</a></li>
+                                                <li><a href="services.html">HƯỚNG DẪN KHÁCH HÀNG</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="blog.html">Khám sức khỏe doanh nghiệp</a></li>
+                                                        <li><a href="blog_details.html">Khám sức khỏe y tế</a></li>
+                                                        <li><a href="elements.html">Bảo lãnh viện phí</a></li>
+                                                        <li><a href="elements.html">Thức hiện cận lâm sàng</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">TIN TỨC</a></li>
                                             </ul>
                                         </nav>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                             <div class="search-box">
                                 <!-- Search Box -->
                                 <div class="search d-none d-lg-block">
@@ -126,7 +239,7 @@
                                 </div>
                             </div>
                             <!-- Mobile Menu -->
-                           
+
                         </div>
                     </div>
                     <div class="col-12">
@@ -135,237 +248,225 @@
                 </div>
             </div>
         </div>
-        <!-- Header End -->
+        <!-- ////////////////////Header End//////////////////// -->
     </header>
     <main>
-        <div class="sub-banner">
-            <div class="banner">
-                <img src="assets/img/gallery/abouts/bg_banner.png" alt=""/>
-                <div class="banner-bottom">
-                    <div class="container">
-                        <div class="sub-breadcrumb">
-                            <img src="assets/img/icon/hospital_ico.svg" /> <span>Thông tin liên hệ</span>
-                        </div>
-                    </div>
+        <!-- ////////////BANNER//////////////// -->
+        <div class="main-banner">
+            <img class="img-fluid" src="assets/img/gallery/services/01.jpg" />
+        </div>
+        <!--////////////// /. BANNER////////// -->
+        <div class="doctor-page">
+            <div class="sub-breadcrumb">
+                <div class="container">
+                    <img src="assets/img/icon/hospital_ico.svg" /> <span>CHUYÊN GIA - BÁC SĨ</span>
                 </div>
             </div>
-        </div>
-        <div class="doctor-content">
-            <div class="doctor-area">
-                
-                <div class="doctor-list">
-                    <div class="doctor-item bg-light">
-                        <img class="img-fluid" src="assets/img/gallery/dotors/01.jpg" />
-                        <div class="info">
-                            <label class=>CHUYÊN KHOA</label>
-                            <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
-                            <p>Chuyên khoa sản - phụ khoa</p>
-                            <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
-                                khoa sản - phụ khoa</p>
+            <div class="doctor-content">
+                <div class="doctor-area">
+                    <div class="doctor-list">
+                        <div class="doctor-item bg-light">
+                            <img class="img-fluid" src="assets/img/gallery/dotors/01.jpg" />
+                            <div class="info">
+                                <label class=>CHUYÊN KHOA</label>
+                                <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
+                                <p>Chuyên khoa sản - phụ khoa</p>
+                                <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
+                                    khoa sản - phụ khoa</p>
                                 <div>
                                     <a class="btn-green">ĐẶT KHÁM</a>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="doctor-item bg-light">
+                            <img class="img-fluid" src="assets/img/gallery/dotors/02.jpg" />
+                            <div class="info">
+                                <label class=>CHUYÊN KHOA</label>
+                                <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
+                                <p>Chuyên khoa sản - phụ khoa</p>
+                                <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
+                                    khoa sản - phụ khoa</p>
+                                <div>
+                                    <a class="btn-green">ĐẶT KHÁM</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doctor-item bg-d">
+                            <img class="img-fluid" src="assets/img/gallery/dotors/03.jpg" />
+                            <div class="info">
+                                <label class=>CHUYÊN KHOA</label>
+                                <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
+                                <p>Chuyên khoa sản - phụ khoa</p>
+                                <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
+                                    khoa sản - phụ khoa</p>
+                                <div>
+                                    <a class="btn-green">ĐẶT KHÁM</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doctor-item bg-d">
+                            <img class="img-fluid" src="assets/img/gallery/dotors/04.jpg" />
+                            <div class="info">
+                                <label class=>CHUYÊN KHOA</label>
+                                <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
+                                <p>Chuyên khoa sản - phụ khoa</p>
+                                <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
+                                    khoa sản - phụ khoa</p>
+                                <div>
+                                    <a class="btn-green">ĐẶT KHÁM</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doctor-item bg-d">
+                            <img class="img-fluid" src="assets/img/gallery/dotors/03.jpg" />
+                            <div class="info">
+                                <label class=>CHUYÊN KHOA</label>
+                                <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
+                                <p>Chuyên khoa sản - phụ khoa</p>
+                                <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
+                                    khoa sản - phụ khoa</p>
+                                <div>
+                                    <a class="btn-green">ĐẶT KHÁM</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doctor-item bg-d">
+                            <img class="img-fluid" src="assets/img/gallery/dotors/04.jpg" />
+                            <div class="info">
+                                <label class=>CHUYÊN KHOA</label>
+                                <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
+                                <p>Chuyên khoa sản - phụ khoa</p>
+                                <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
+                                    khoa sản - phụ khoa</p>
+                                <div>
+                                    <a class="btn-green">ĐẶT KHÁM</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="doctor-item bg-light">
-                        <img  class="img-fluid" src="assets/img/gallery/dotors/02.jpg" />
-                        <div class="info">
-                            <label class=>CHUYÊN KHOA</label>
-                            <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
-                            <p>Chuyên khoa sản - phụ khoa</p>
-                            <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
-                                khoa sản - phụ khoa</p>
-                                <div>
-                                    <a class="btn-green">ĐẶT KHÁM</a>
-                                </div>
-                        </div>
+                    <!-- PAGINATION -->
+                    <div class="text-center mtb50">
+                        <nav class="pagination-container">
+                            <div class="pagination">
+                                <a class="pagination-newer" href="#"><</a>
+                                        <span class="pagination-inner">
+                                            <a href="#">1</a>
+                                            <a class="pagination-active" href="#">2</a>
+                                            <a href="#">3</a>
+                                            <a href="#">4</a>
+                                            <a href="#">5</a>
+                                            <a href="#">6</a>
+                                        </span>
+                                        <a class="pagination-older" href="#">></a>
+                            </div>
+                        </nav>
                     </div>
-                    <div class="doctor-item bg-d">
-                        <img  class="img-fluid" src="assets/img/gallery/dotors/03.jpg" />
-                        <div class="info">
-                            <label class=>CHUYÊN KHOA</label>
-                            <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
-                            <p>Chuyên khoa sản - phụ khoa</p>
-                            <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
-                                khoa sản - phụ khoa</p>
-                                <div>
-                                    <a class="btn-green">ĐẶT KHÁM</a>
-                                </div>
+                    <!--END PAGINATION -->
+                </div>
+                <!--////////// VIDEO ////////////-->
+                <div class="container">
+                    <div class="tab-item">
+                        <div class="title-tab">
+                            <h4>
+                                <span class="tb-icon">
+                                    <img src="assets/img/icon/video-files.png" />
+                                </span>VIDEO
+                            </h4>
                         </div>
-                    </div>
-                    <div class="doctor-item bg-d">
-                        <img  class="img-fluid" src="assets/img/gallery/dotors/04.jpg" />
-                        <div class="info">
-                            <label class=>CHUYÊN KHOA</label>
-                            <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
-                            <p>Chuyên khoa sản - phụ khoa</p>
-                            <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
-                                khoa sản - phụ khoa</p>
-                                <div>
-                                    <a class="btn-green">ĐẶT KHÁM</a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="doctor-item bg-d">
-                        <img  class="img-fluid" src="assets/img/gallery/dotors/03.jpg" />
-                        <div class="info">
-                            <label class=>CHUYÊN KHOA</label>
-                            <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
-                            <p>Chuyên khoa sản - phụ khoa</p>
-                            <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
-                                khoa sản - phụ khoa</p>
-                                <div>
-                                    <a class="btn-green">ĐẶT KHÁM</a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="doctor-item bg-d">
-                        <img  class="img-fluid" src="assets/img/gallery/dotors/04.jpg" />
-                        <div class="info">
-                            <label class=>CHUYÊN KHOA</label>
-                            <p><span class="text-blue">Bác sĩ </span>: Trần Thị Xuân</p>
-                            <p>Chuyên khoa sản - phụ khoa</p>
-                            <p><span class="text-blue">Kinh nghiệm:</span> Bác sĩ điều trị trưởng
-                                khoa sản - phụ khoa</p>
-                                <div>
-                                    <a class="btn-green">ĐẶT KHÁM</a>
-                                </div>
+                        <div class="center tab-content-item mb-50">
+                            <div class=" video">
+                                <iframe width="849" height="448" src="https://www.youtube.com/embed/2xelWwT4vkk"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="text-center mtb50">
-                    <nav class="pagination-container">
-                        <div class="pagination">
-                                <a class="pagination-newer" href="#">PREV</a>
-                                <span class="pagination-inner">
-                                    <a href="#">1</a>
-                                    <a class="pagination-active" href="#">2</a>
-                                    <a href="#">3</a>
-                                    <a href="#">4</a>
-                                    <a href="#">5</a>
-                                    <a href="#">6</a>
-                                </span>
-                                <a class="pagination-older" href="#">NEXT</a>
-                        </div>
-                </nav>
-                </div>
-            </div> 
+                <!--////////// VIDEO ////////////-->
+            </div>
         </div>
     </main>
+    <!-- //////////////////////FOOTER ////////////////////-->
     <footer>
         <!-- Footer Start-->
         <div class="footer-area footer-padding">
-            <div class="container">
-                <div class="row">
-                   <div class="col-12">
-                    <div class="footer-top">
-                        <img class="footer-logo" src="assets/img/logo/logo.png" />
-                        <div class="footer-social">
-                            <p><b>KẾT NỐI VỚI CHÚNG TÔI QUA : </b></p>
-                           <div> <img class="icon" src="assets/img/icon/facebook.svg" />
-                            <img class="icon" src="assets/img/icon/youtube.svg" /></div>
-                        </div>
-                        <a class="btn btn-red"><img src="assets/img/icon/icon-hotline.svg">Hotline : 1800 9989</a>
-                    </div>
-                   </div>
-                   
-                </div>
+            <div class="container-fluid">
                 <div class="row d-flex justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12">
-                            <div class="single-footer-caption mb-50  mls15">
-                                <div class="footer-tittle">
-                                    <h2>PHÒNG KHÁM SAIGON HEALTHCARE </h2>
-                                    <div class="footer-pera">
-                                        <p class="info1">Địa chỉ: 45 Đ. Thành Thái, Phường 14, Quận 10, Thành phố Hồ Chí Minh
-    
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="footer-number">
-                                    <p><b>Điện thoại: 098 226 45 45</b></p>
-                                    <p><b>Email: Saigonhealthcare@gmail.com</b></p>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                        <div class="single-footer-caption">
+                            <div class="footer-tittle mt30">
+                                <img class="footer-logo" src="assets/img/logo/logo_white.png" />
+                                <div class="footer-info">
+                                    <h2>PHÒNG KHÁM ĐA KHOA SAIGON HEALTHCARE </h2>
+                                    <p>Địa chỉ: 45 Thành Thái, P.14, Q.10, Tp HCM</p>
+                                    <p>098 226 45 45</p>
+                                    <p>Giờ làm việc 7h00-19h30</p>
+                                    <small>(thứ 2 đến thứ 7)</small>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <ul>
-                                        <li><a href="#">Hệ thống Bệnh Viện </a></li>
-                                        <li><a href="#">Văn phòng đại diện</a></li>
-                                        <li><a href="#">Dich vu kham benh</a></li>
-                                        <li><a href="#">Chuyen khoa</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <ul>
-                                        <li><a href="#">Tuyển dụng</a></li>
-                                        <li><a href="#">Tin tuc hoat dong</a></li>
-                                        <li><a href="#">Chương trình Bác sĩ hợp tác
-                                        </a></li>
-                                        <li><a href="#">Cơ hội nghề nghiệp</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                            <div class="single-footer-caption">
-                                <div class="footer-tittle mb-50 ">
-                                    <div class="app-ico">
-                                        <h5>Tải app phòng khám</h5>
-                                        <div>
-                                            <img  src="assets/img/icon/app-store.png" alt="" />
-                                            <img  src="assets/img/icon/google-play.png" alt="" />
-                                        </div>
-                                    </div>
-                                    <br><br>
-                                    <div  class="app-ico">
-                                        <h5>Chứng nhận :</h5>
-                                        <div>
-                                            <img  src="assets/img/icon/red.png" alt="" />
-                                            <img  src="assets/img/icon/blue.png" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    
-                </div>
-                <div class="footer-social-bottom">
-                    <p><b>KẾT NỐI VỚI CHÚNG TÔI QUA : </b></p>
-                   <div> <img class="icon" src="assets/img/icon/facebook.svg" />
-                    <img class="icon" src="assets/img/icon/youtube.svg" /></div>
-                </div>
-            </div>
-        </div>
-        <!-- footer-bottom area -->
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="footer-border">
-                    <div class="row d-flex justify-content-between align-items-center">
-                        <div class="col-12">
-                            <div class="col-xl-9 col-lg-8">
-                                <div class="footer-copy-right">
-                                    <p>Bản quyền © 2021 Bệnh viện SaigonHealthcare giữ bản quyền </p>
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4  footer-list">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <ul>
+                                    <li><a href="#">Về Saigon Healthcare </a></li>
+                                    <li><a href="#">Đội ngũ bác sĩ</a></li>
+                                    <li><a href="#">Tin tức</a></li>
+                                    <li><a href="#">Tuyển dụng</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4  footer-list">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <ul>
+                                    <li><a href="#">Dịch vụ</a></li>
+                                    <li><a href="#">Giới thiệu</a></li>
+                                    <li><a href="#">Đặt lịch khám
+                                        </a></li>
+                                    <li><a href="#">Gói khám</a></li>
+                                    <li><a href="#">Hướng dẫn khách hàng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-4 col-xs-12">
+                        <div class="single-footer-caption">
+                            <div class="footer-app">
+                                <div class="app-ico">
+                                    <h5>Tải app phòng khám</h5>
+                                    <div>
+                                        <img src="assets/img/icon/app-store.png" alt="" />
+                                        <img src="assets/img/icon/google-play.png" alt="" />
+                                    </div>
+                                </div>
+
+                                <div class="app-ico">
+                                    <h5>Chứng nhận :</h5>
+                                    <div>
+                                        <img src="assets/img/icon/red.png" alt="" />
+                                        <img src="assets/img/icon/blue.png" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+
         <div class="chat-box">
-            <img src="assets/img/icon/chat-box.png" alt=""/>
         </div>
-        <!-- Footer End-->
+
     </footer>
+    <!--/////////////////////////// Footer End///////////////////////////-->
     <!--? Search model Begin -->
     <div class="search-model-box">
         <div class="h-100 d-flex align-items-center justify-content-center">
@@ -377,41 +478,36 @@
     </div>
     <!-- Search model end -->
     <!-- Scroll Up -->
-    <div id="back-top" >
+    <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
     <!-- JS here -->
 
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script> -->
     <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+
+    <!-- <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script> -->
     <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- <script src="./assets/js/bootstrap.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
     <!-- Jquery Mobile Menu -->
     <script src="./assets/js/jquery.slicknav.min.js"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
+
+    <!-- <script src="./assets/js/owl.carousel.min.js"></script> -->
     <script src="./assets/js/slick.min.js"></script>
-    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/jquery.backstretch.min.js"></script>
+
     <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/animated.headline.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <!-- <script src="./assets/js/wow.min.js"></script> -->
+    <!-- <script src="./assets/js/animated.headline.js"></script> -->
     <script src="./assets/js/jquery.magnific-popup.js"></script>
-    
-    <!-- Date Picker -->
-    <script src="./assets/js/gijgo.min.js"></script>
-    <!-- Nice-select, sticky -->
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.sticky.js"></script>
-    <!-- Progress -->
-    <script src="./assets/js/jquery.barfiller.js"></script>
-    
-    <!-- counter , waypoint,Hover Direction -->
-    <script src="./assets/js/jquery.counterup.min.js"></script>
-    <script src="./assets/js/waypoints.min.js"></script>
-    <script src="./assets/js/jquery.countdown.min.js"></script>
-    <script src="./assets/js/hover-direction-snake.min.js"></script>
 
     <!-- contact js -->
     <script src="./assets/js/contact.js"></script>
@@ -419,11 +515,11 @@
     <script src="./assets/js/jquery.validate.min.js"></script>
     <script src="./assets/js/mail-script.js"></script>
     <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-    
-    <!-- Jquery Plugins, main Jquery -->	
+
+    <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
-    </body>
+</body>
+
 </html>
