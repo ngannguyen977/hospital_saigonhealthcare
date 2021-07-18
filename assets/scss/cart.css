@@ -1,0 +1,209 @@
+.cart-page {
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.cart-page .cart-wrap {
+  padding: 40px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cart-page .main-heading {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.cart-page .table-cart {
+  border-right: 1px solid #6666;
+  padding-right: 30px;
+}
+
+.cart-page .table-cart table {
+  width: 100%;
+}
+
+.cart-page .table-cart .btn-group {
+  margin-top: 20px;
+}
+
+.cart-page .table-cart thead {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 5px;
+}
+
+.cart-page .table-cart thead tr th {
+  padding: 8px 0 18px;
+  font-size: 13px;
+}
+
+.cart-page .table-cart tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-page .table-cart tr td {
+  padding: 20px 0 27px;
+  vertical-align: middle;
+}
+
+.cart-page .table-cart tr td .img-product {
+  width: 72px;
+  float: left;
+  margin-right: 31px;
+  line-height: 63px;
+}
+
+.cart-page .table-cart tr td .img-product i {
+  color: #999;
+  margin-right: 10px;
+}
+
+.cart-page .table-cart tr td .img-product img {
+  width: 100%;
+}
+
+.cart-page .table-cart tr td .name-product {
+  font-size: 15px;
+  color: #484848;
+  padding-top: 8px;
+  line-height: 24px;
+  width: 50%;
+}
+
+.cart-page .table-cart tr td .quanlity {
+  position: relative;
+}
+
+.cart-page .product-count .qtyminus,
+.cart-page .product-count .qtyplus {
+  width: 20px;
+  height: 34px;
+  background: transparent;
+  text-align: center;
+  font-size: 19px;
+  line-height: 34px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cart-page .product-count .qtyminus {
+  line-height: 32px;
+}
+
+.cart-page .product-count .qtyminus {
+  border-radius: 3px 0 0 3px;
+}
+
+.cart-page .product-count .qtyplus {
+  border-radius: 0 3px 3px 0;
+}
+
+.cart-page .product-count .qty {
+  width: 40px;
+  text-align: center;
+  border: 2px solid #d2d2d2;
+}
+
+.cart-page .count-inlineflex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 2px;
+}
+
+.cart-page .display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart-page .align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-page input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.cart-page .cart-totals h4, .cart-page .cart-totals tr {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart-page .cart-totals table {
+  width: 100%;
+}
+
+.cart-page .cart-totals table tr th,
+.cart-page .cart-totals table tr td {
+  width: 50%;
+  padding: 3px 0;
+  vertical-align: middle;
+}
+
+.cart-page .cart-totals table tr td:last-child {
+  text-align: right;
+}
+
+.cart-page .cart-totals table tr td.subtotal, .cart-page .cart-totals table tr td.price-total, .cart-page .total, .cart-page .price {
+  font-weight: bold;
+}
+
+.cart-page .cart-totals table tr.total-row td {
+  padding-top: 25px;
+}
+
+.cart-page .btn-cart-totals {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-page .btn-cart-totals a {
+  display: block;
+}
+
+.payment-page .payment-right {
+  border: 1px solid #2680eb;
+  padding: 15px;
+}
+
+.payment-page .card {
+  border: 0;
+}
+
+.payment-page h4 {
+  margin-bottom: 20px;
+}
+
+.payment-page h5 {
+  margin: 20px 0;
+}
+
+.payment-page .payment-select label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment-page .payment-select label input {
+  margin-right: 10px;
+}
+
+.payment-page label {
+  font-weight: 700;
+}
+
+.payment-page label:after {
+  color: #c00;
+  content: " *";
+  font-family: serif;
+}
+/*# sourceMappingURL=cart.css.map */

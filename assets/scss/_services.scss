@@ -1,26 +1,214 @@
-.hero-caption{
-    & span{
-        color: #fff;
-        font-size: 16px;
-        display: block;
-        margin-bottom: 24px;
-        font-weight: 600;
-        padding-left: 95px;
-        position: relative;
-        &::before{
-            position: absolute;
-            content: "";
-            width: 75px;
-            height: 3px;
-            background:$theme-color;
-            left: 0;
-            top: 52%;
-            transform: translateY(-50%);
+/////////////// GÓI KHÁM///////////////////////////////
+.package-page {
+    .filter-top {
+        .btn-light {
+            border: 1px solid #ddd;
+            border-radius: 0;
         }
     }
-    & h2{
-        color: #fff;
-        font-size: 50px;
-        font-weight: 700;
+
+    .package-list {
+        .package-item {
+            margin-bottom: 30px;
+            .package-img {
+                width: 100%;
+                height: 210px;
+                object-fit: cover;
+            }
+
+            .card-title {
+                a {
+                    color: #007bff;
+                }
+            }
+
+            .card-body {
+                padding: 0;
+                margin-top: 15px;
+            }
+
+            .card-img-top {
+                position: relative;
+            }
+        }
     }
 }
+.card-price {
+    span {
+        color: red;
+    }
+}
+
+.product-price {
+    background: #f21b30;
+    color: #ffff;
+    padding: 2px 6px;
+    position: absolute;
+}
+///PACKAGE DETAIL////
+.package-detail{
+    .package-item{
+        border-right: 1px solid #ddd;
+      .advisory{
+            background:#2680EB;padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            p{color:#fff;}
+        }
+        .gift {
+            margin-top:20px;
+            ul{
+                padding-left: 15px;
+                li{
+                    list-style-type: disc;
+                }
+            }
+        }  
+    }
+    .package-note{
+        p{
+            border: 2px dotted #f0b01c;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        .brand-location{
+            h5{color:#007bff;margin-top: 15px;}
+        }
+    }
+    .description-package{
+        .nav-tabs{justify-content:center;}
+    }
+    ///////////////////////
+    /* Tabs panel */
+    .tabbable-panel {
+        border:1px solid #eee;
+        padding: 10px;
+    }
+    
+  /* Default mode */
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #fbcdcf;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #f3565d;
+    position: relative;
+}
+
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+  }
+  .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+  
+  /* Below tabs mode */
+  
+  .tabbable-line.tabs-below > .nav-tabs > li {
+    border-top: 4px solid transparent;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li > a {
+    margin-top: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li:hover {
+    border-bottom: 0;
+    border-top: 4px solid #fbcdcf;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li.active {
+    margin-bottom: -2px;
+    border-bottom: 0;
+    border-top: 4px solid #f3565d;
+  }
+  .tabbable-line.tabs-below > .tab-content {
+    margin-top: -10px;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+}
+
+.counter__increment, .counter__decrement {
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .counter {
+    position: relative;
+    width: 7.5rem;
+    height: 34;
+    border: 1px solid #8888;
+    border-radius: 3px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .counter__input {
+    border: none;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #888;
+    font-size: 0.875rem;
+    background-color: transparent;
+  }
+  .counter__increment, .counter__decrement {
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    height: 34px;
+    width: 2.1875rem;
+    font-weight: normal;
+    color: #8888;
+    text-decoration: none;
+  }
+  .counter__increment:hover, .counter__increment:active, .counter__increment:focus, .counter__decrement:hover, .counter__decrement:active, .counter__decrement:focus {
+    color: #8888;
+    text-decoration: none;
+    background-color: #edeff0;
+  }
+  .counter__increment {
+    right: 0;
+    border-left: 1px solid #8888;
+  }
+  .counter__decrement {
+    left: 0;
+    top: 0;
+    border-right: 1px solid #8888;
+    line-height: 1.6875rem;
+  }
+  

@@ -336,19 +336,6 @@ var testimonial = $('.h1-testimonial-active');
 //   $('#timepicker').timepicker();
 
 
-
-//17.  Progress barfiller
-
-  // $('#bar1').barfiller();
-  // $('#bar2').barfiller();
-  // $('#bar3').barfiller();
-  // $('#bar4').barfiller();
-  // $('#bar5').barfiller();
-  // $('#bar6').barfiller();
-
-
-
-
 // Modal Activation
     $('.search-switch').on('click', function () {
       $('.search-model-box').fadeIn(400);
@@ -489,14 +476,7 @@ var testimonial = $('.h1-testimonial-active');
     return $slider;
   };
   $("#slider1").sliderResponsive({
-    // Using default everything
-      // slidePause: 5000,
-      // fadeSpeed: 800,
-      // autoPlay: "on",
-      // showArrows: "off", 
-      // hideDots: "off", 
-      // hoverZoom: "on", 
-      // titleBarTop: "off"
+ 
     });
     
     $("#slider2").sliderResponsive({
@@ -510,6 +490,31 @@ var testimonial = $('.h1-testimonial-active');
       hoverZoom: "off",
       hideDots: "on"
     });
+     ///count///////
+
+      // ------------ Counter BEGIN ------------ 
+      $(".counter__increment, .counter__decrement").click(function(e)
+      {
+        var $this = $(this);
+        var $counter__input = $(this).parent().find(".counter__input");
+        var $currentVal = parseInt($(this).parent().find(".counter__input").val());
+  
+        //Increment
+        if ($currentVal != NaN && $this.hasClass('counter__increment'))
+        {
+          $counter__input.val($currentVal + 1);
+        }
+        //Decrement
+        else if ($currentVal != NaN && $this.hasClass('counter__decrement'))
+        {
+          if ($currentVal >= 1) {
+            $counter__input.val($currentVal - 1);
+          }
+        }
+      });
+      // ------------ Counter END ------------ 
+  
+
     //////datetimepicker///////
     $('.input-daterange').datepicker({
       format: 'dd-mm-yyyy',
@@ -517,7 +522,7 @@ var testimonial = $('.h1-testimonial-active');
       startDate: '0d'
       });
 
-
+     
 })(jQuery);
 
 
