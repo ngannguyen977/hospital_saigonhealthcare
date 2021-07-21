@@ -1,8 +1,164 @@
 .recruit-page{
+    padding-bottom: 50px;
+    .txt-red{
+        color: red;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .recruit-title{
+        h5{
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    .group-gender{
+        label{
+            margin-right: 20px;
+        }
+        .radio-container {margin-right:20px;
+            input{margin-right:10px;}
+        }
+    }
+    .recruit-content-left{
+      
+        .nav-tabs{
+            display:block;
+            i{
+                font-size: 10px;
+                margin-right: 10px;
+            }
+            .nav-item{
+                .nav-link{
+                    padding:10px;
+                    border-bottom: 1px solid #ddd;
+                    font-size: 14px;
+                    &.active{
+                        color: #343a40 !important;
+                        background-color: #f0e9ff !important;
+                        border-bottom: 0 !important;
+                        font-weight: 600;
+                    }
+                    &:hover, &:focus{color:#333;font-weight:bold}
+                }
+            }
+            
+        }
+    }
     .label{
         background-color: #078ae0;
         color:#fff;
         padding: 10px;
+        font-size: 18px;
         
     }
+    .recruit-content-right{
+        .table {
+            .thead-dark th{
+                background:#007bff;
+                border-color: #007bff;
+                padding-left: 20px;
+            }
+            td{
+                padding:18px;
+                font-weight: 600;
+                b{padding-left:20px;}
+            }
+        }
+    }
+
+    /////////thong tin tuyen dung/////////////
+    .et_pb_contact_form_label {
+        color: #333;
+        font-weight: bold;
+      letter-spacing: 1.2px;
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    input[id="et_pb_contact_brand_file_request_0"] {
+        display: none;
+    }
+    label[for="et_pb_contact_brand_file_request_0"] {
+        display:flex;
+        align-items:center;
+        margin-top:15px;
+       i{
+        background: #f0e9ff;
+        height: 95px;
+        width: 150px;
+        border: 1px solid #e9ecef;
+        border-radius: 4px;
+        color: #cacbd0;
+        text-align: center;
+        font-size: 40px;
+        line-height: 85px;
+        margin-right: 20px;
+       }
+    }
+    
+    label[for="et_pb_contact_brand_file_request_0"]:before {
+   
+        top: 50%;
+        font-size: 14px;
+        color: #202020;
+        font-weight: 400;
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+ 
+    label[for="et_pb_contact_brand_request_0"]:after {
+        content: " (Provide link or Upload files if you already have guidelines)";
+        font-size: 12px;
+        letter-spacing: -0.31px;
+        color: #7a7a7a;
+        font-weight: normal;
+    }
+    label[for="et_pb_contact_design_request_0"]:after {
+        content: " (Provide link or Upload design files)";
+        font-size: 12px;
+        letter-spacing: -0.31px;
+        color: #7a7a7a;
+        font-weight: normal;
+    }
+   
+    label[for="et_pb_contact_brand_file_request_0"] {
+      cursor: pointer;
+      transition: 400ms ease;
+    }
+    .file_names {
+        display: block;
+        color: black;
+        left: 0;
+        bottom: -30px;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .recruit-info-content{
+        .recruit-label{
+            margin: 30px 0;
+            span{margin-right:30px;}
+        }
+        ul{
+            padding-left: 30px;
+            li{
+                padding: 5px;
+                right:10px;
+                position: relative;
+                &::before{
+                    content: '';
+                    border: 1px solid #a3a3a3;
+                    border-radius: 50%;
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    left: -10px;
+                    top: 10px;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    
 }

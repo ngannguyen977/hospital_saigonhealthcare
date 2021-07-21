@@ -185,6 +185,17 @@ $mq-lg: "(min-width: 1200px)";
     
 }
 @media (max-width: 768px){
+    .footer-area .footer-tittle{display:block;margin-bottom:25px;
+        .footer-logo{
+            margin-bottom: 20px;
+        }
+        .footer-info{
+            border-left:0;
+            padding-left:0;
+        }
+    }
+    .footer-app{margin-left: -15px;}
+    .login-page .login-content{padding:0 !important;}
     .login-page {
         .user-info-left{
             ul{

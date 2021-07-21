@@ -91,9 +91,6 @@
                 }
             }
         }
-        .header-info-right{
-            // Ringht
-        }
     }
 }
 // Header Bottom
@@ -216,6 +213,9 @@
         .header-info-right{
             display:flex;
             img{width:20px;}
+            a{
+                &:hover, &:focus{color:#a1cc3a !important;}
+            }
             .header-social {
                 a{
                     i {
@@ -235,6 +235,7 @@
                         -ms-transform: rotateY(180deg);
                         -o-transform: rotateY(180deg);
                     }
+                   
                 }
             }
         }

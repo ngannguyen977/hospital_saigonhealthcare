@@ -192,6 +192,7 @@ input, select{
     height:36px !important;
     border-radius: 2px;
     border:1px solid #ccc;
+    
 }
 label{font-weight: 600;}
 .uppercase {
@@ -286,7 +287,10 @@ hr {
     z-index: -1;
     opacity: 0.5;
 }
+.form-control {
 
+    font-size: 13px !important;
+}
 ////////////pagination/////////////
 .pagination-sec{margin-top: 30px;}
 .pagination-container {
@@ -428,6 +432,12 @@ hr {
        
     }
 }
+.btn-stroke-red{
+    border: 2px solid #f01126;
+    padding: 8px;
+    color: #f01126 !important;
+    font-weight: bold;
+}
 .btn-dark-blue{
     background-color: #102e9e;
     border-radius: 2px!important;
@@ -450,10 +460,13 @@ hr {
 }
 
 .btn-red {
-    background: #FF3514;
+    background: #f40f0f;
     color: #fff !important;
-    padding: 10px 24px;
+    padding: 8px 24px;
     font-weight: 800;
+    width: 150px;
+    display: block;
+    text-align: center;
 }
 
 .btn-green {
@@ -503,7 +516,7 @@ hr {
     grid-auto-rows: 38px;
     color: #fff;
     display: none;
-    line-height: 35px;
+    line-height: 35px !important;
     text-align: center;
     img {
         margin-right: 5px;
@@ -594,7 +607,7 @@ hr {
 .hero-btn {
     padding: 17px 65px 17px 31px;
 }
-
+.txt-blue{color:#007bff;}
 .white-btn {
     padding: 30px 39px;
     background: #fff;

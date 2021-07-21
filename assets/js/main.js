@@ -163,10 +163,10 @@ var testimonial = $('.h1-testimonial-active');
 
 
 /* 6. Nice Selectorp  */
-  var nice_Select = $('select');
-    if(nice_Select.length){
-      nice_Select.niceSelect();
-    }
+  // var nice_Select = $('select');
+  //   if(nice_Select.length){
+  //     nice_Select.niceSelect();
+  //   }
 
  // Brand Active
  $('.brand-active').slick({
@@ -515,16 +515,15 @@ var testimonial = $('.h1-testimonial-active');
       // ------------ Counter END ------------ 
   
 
-    //////datetimepicker///////
+    ///////////////////////datetimepicker/////////////////////////
+
     $('.input-daterange').datepicker({
       format: 'dd-mm-yyyy',
       todayHighlight: true,
       startDate: '0d'
       });
 
+    
      
 })(jQuery);
-
-
-
 
