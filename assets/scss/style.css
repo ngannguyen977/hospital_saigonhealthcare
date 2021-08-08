@@ -3252,7 +3252,6 @@ hr {
   color: #0066b3;
   font-size: 16px;
   cursor: pointer;
-  padding: 20px 19px;
   float: right;
 }
 
@@ -5353,6 +5352,122 @@ hr {
   margin-bottom: 10px;
 }
 
+.text-info {
+  color: #31708f;
+}
+
+.physicianList ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.physicianList ul li {
+  display: inline-block;
+  width: 240px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.physicianBox {
+  border: 1px solid #ddd;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.physicianBox .physicianPic {
+  padding: 15px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.physicianBox .physicianPic img {
+  border: 6px solid #f8f8f8;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 0 auto;
+  height: 120px;
+  width: 120px;
+}
+
+.physicianInfo {
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.physicianInfo h6 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.physicianBox strong {
+  color: #444;
+}
+
+.physicianBox p {
+  font-size: 13px;
+  margin: 0;
+  line-height: 22px;
+}
+
+.physicianBio {
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+}
+
+.physicianModal {
+  text-align: center;
+}
+
+.physicianModal .physicianPic img {
+  border: 6px solid #f8f8f8;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 0 auto;
+  height: 180px;
+  width: 180px;
+}
+
+.physicianModal .info p, .physicianModal .info .text-info {
+  margin: 0;
+}
+
+.showBioBtn {
+  background-color: #007bff;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+/*Pagination CSS*/
+#page_navigation {
+  clear: both;
+  margin: 20px 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#page_navigation a {
+  padding: 8px 13px;
+  margin: 2px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active_page {
+  background: #007bff;
+  color: white !important;
+}
+
 .video-container {
   margin-bottom: 50px;
 }
@@ -5588,9 +5703,6 @@ hr {
 }
 
 .news-content .news-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-bottom: 30px;
   border-bottom: 1px dashed #5B9FF0;
   padding-bottom: 20px;

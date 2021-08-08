@@ -161,13 +161,6 @@ var testimonial = $('.h1-testimonial-active');
     });
   }
 
-
-/* 6. Nice Selectorp  */
-  // var nice_Select = $('select');
-  //   if(nice_Select.length){
-  //     nice_Select.niceSelect();
-  //   }
-
  // Brand Active
  $('.brand-active').slick({
   dots: false,
@@ -522,8 +515,7 @@ var testimonial = $('.h1-testimonial-active');
       todayHighlight: true,
       startDate: '0d'
       });
-
-    
-     
+ 
 })(jQuery);
 
+/////////////////////// pagination///////////////////////////////////
