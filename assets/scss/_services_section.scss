@@ -377,12 +377,14 @@
         img{
             height: 190px;
             width: 190px;
+            // max-width: 35%; 
             border-radius: 50%;
             -o-object-fit: cover;
             object-fit: cover;
             margin-right: 30px;
             border: 5px solid #2680eb;
         }
+        .info{width:75%;}
     }
    }
    
@@ -510,6 +512,7 @@ background: #707070;
     }
     .news-item{
         display:flex;
+       
         p{float: right;}
         h5{
             overflow: hidden;

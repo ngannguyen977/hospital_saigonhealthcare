@@ -3852,6 +3852,10 @@ hr {
   margin-right: 20px;
 }
 
+.about-page .tab-content .tab-item .tab-content-item .post-item article {
+  width: 75%;
+}
+
 .about-page .tab-content .tab-item .tab-content-item .post-item article p {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4025,7 +4029,8 @@ hr {
   background-color: #078ae0;
   color: #fff;
   padding: 10px;
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .recruit-page .recruit-content-right .table .thead-dark th {
@@ -5173,6 +5178,10 @@ hr {
   object-fit: cover;
   margin-right: 30px;
   border: 5px solid #2680eb;
+}
+
+.doctor-area .doctor-list .doctor-item .info {
+  width: 75%;
 }
 
 .insurance-area {
@@ -7099,6 +7108,9 @@ hr {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .news-content .news-item .display-flex {
+    display: inline-block;
+  }
   .news-content .news-item .news-img {
     width: 100%;
     margin-bottom: 20px;
@@ -7122,6 +7134,12 @@ hr {
 }
 
 @media (max-width: 768px) {
+  .doctor-area .doctor-list .doctor-item .info {
+    width: 100%;
+  }
+  .doctor-area .doctor-list .doctor-item img {
+    max-width: 100%;
+  }
   .footer-area .footer-tittle {
     display: block;
     margin-bottom: 25px;
@@ -7156,6 +7174,9 @@ hr {
 }
 
 @media (max-width: 991px) {
+  .recruit-page .recruit-content .container {
+    max-width: 100%;
+  }
   .login-page .container {
     max-width: 100%;
   }
@@ -7191,7 +7212,7 @@ hr {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1100px) {
+@media (min-width: 1000px) and (max-width: 1100px) {
   .doctor-item img {
     width: 140px !important;
     height: 140px !important;
@@ -7250,6 +7271,9 @@ hr {
     width: 100% !important;
     height: 200px !important;
     margin-bottom: 15px;
+  }
+  .post-item article {
+    width: 100% !important;
   }
   .header-middle {
     display: none;
