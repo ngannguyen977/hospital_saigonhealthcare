@@ -3986,6 +3986,10 @@ hr {
   margin-bottom: 20px;
 }
 
+.recruit-page .recruit-title .btn-red {
+  float: right;
+}
+
 .recruit-page .group-gender label {
   margin-right: 20px;
 }
@@ -4029,7 +4033,7 @@ hr {
   background-color: #078ae0;
   color: #fff;
   padding: 10px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
 }
 
