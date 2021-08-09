@@ -5220,7 +5220,7 @@ hr {
 
 .rss-area .rss-box {
   position: relative;
-  display: inline-block;
+  display: block;
   margin-bottom: 15px;
 }
 
@@ -5353,7 +5353,7 @@ hr {
 
 .news-area .news-item a img {
   width: 130px;
-  height: 90px;
+  height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 6px;
@@ -5508,6 +5508,9 @@ hr {
 .video-container .video-item .img-video-sm {
   width: 100%;
   border-radius: 6px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .sub-banner .banner > img {
