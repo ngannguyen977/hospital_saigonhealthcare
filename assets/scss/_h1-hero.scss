@@ -219,26 +219,30 @@
     }
 }
 .slider-bottom{
-    padding-bottom: 15px;
-    padding-top: 30px;
-    ul{
-        display:flex;
-        justify-content:center;
-        li{
-            border: 1px solid #0066B3;
-            border-radius: 40px;
-            background: #fff;
-            margin: 0 10px 20px 10px;
-            padding: 8px 15px;
-            width: 20%;
-            text-align: center;
+    .items {
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 50px;
+        .slider-item{
+            width: 25%;
+            display:flex;
+            border-radius: 30px;
+            border:1px solid #01508f;
+            padding:8px 15px;
             font-weight: bold;
-            color: #204b6b;
-            img{
-                margin-right: 10px;
-            }
+            img{margin-right: 10px;}
         }
     }
+    
+    .slick-slide {
+        margin: 10px
+    }
+    
+    .slick-slide img {
+        border: 0px solid #fff
+    }
+    .slick-prev:before, .slick-next:before{color:#01508f !important;}
+    .slick-dots{display:none !important;}
 }
 // Hero Overly
 .hero-overly {

@@ -3709,34 +3709,41 @@ hr {
   }
 }
 
-.slider-bottom {
-  padding-bottom: 15px;
-  padding-top: 30px;
+.slider-bottom .items {
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 50px;
 }
 
-.slider-bottom ul {
+.slider-bottom .items .slider-item {
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.slider-bottom ul li {
-  border: 1px solid #0066B3;
-  border-radius: 40px;
-  background: #fff;
-  margin: 0 10px 20px 10px;
+  border-radius: 30px;
+  border: 1px solid #01508f;
   padding: 8px 15px;
-  width: 20%;
-  text-align: center;
   font-weight: bold;
-  color: #204b6b;
 }
 
-.slider-bottom ul li img {
+.slider-bottom .items .slider-item img {
   margin-right: 10px;
+}
+
+.slider-bottom .slick-slide {
+  margin: 10px;
+}
+
+.slider-bottom .slick-slide img {
+  border: 0px solid #fff;
+}
+
+.slider-bottom .slick-prev:before, .slider-bottom .slick-next:before {
+  color: #01508f !important;
+}
+
+.slider-bottom .slick-dots {
+  display: none !important;
 }
 
 .hero-overly {
