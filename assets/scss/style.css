@@ -6202,6 +6202,50 @@ hr {
   }
 }
 
+.warning-order-page {
+  background: #edf1f6;
+  padding: 50px;
+}
+
+.warning-order-page .center img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.warning-order-page .center h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #014898;
+}
+
+.warning-order-page .center h4 {
+  color: #495057;
+  margin-top: 15px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.warning-order-page .account-bank {
+  background: #d2d9e1;
+  border-radius: 6px;
+  padding: 20px;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.warning-order-page .account-bank h5 {
+  color: #00306a;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.warning-order-page .account-bank p span {
+  font-weight: bold;
+}
+
 .package-page .filter-top .btn-light {
   border: 1px solid #ddd;
   border-radius: 0;
